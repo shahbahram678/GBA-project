@@ -1320,18 +1320,18 @@ body {
   /* Hero Section */
 
   .hero {
-    padding: 125px 234px;
+    padding: 175px 234px;
   }
   .hero-content {
-    max-width: 786px; /* Slightly reduced max-width */
+    max-width: 899px; /* Slightly reduced max-width */
   }
   .hero-content h1 {
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 8px;
   }
   .hero-content p {
     font-weight: 300;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.6;
     margin-bottom: 16px;
   }
@@ -1339,7 +1339,8 @@ body {
   .cta-button {
     margin-top: 15px;
     padding: 10px 70px;
-    font-size: 22px;
+    font-size: 27px;
+    border-radius: 70px;
   }
 
   /* special section */
@@ -1434,7 +1435,7 @@ body {
   }
 
   .news-section h2 {
-    font-size: 48px;
+    font-size: 53px;
     margin-bottom: 70px;
   }
 
@@ -1451,16 +1452,18 @@ body {
   }
 
   .account-name {
-    font-size: 28px;
+    font-size: 33px;
+    margin: 25px 0;
   }
 
   .followers {
-    font-size: 22px;
+    font-size: 27px;
+    margin: 22px 0 40px;
   }
 
   .insta-button {
     padding: 17px 35px;
-    font-size: 25px;
+    font-size: 30px;
     border-radius: 70px;
   }
 }
@@ -1610,23 +1613,41 @@ body {
 
   /* news section */
   .news-section {
-    padding: 40px 22%;
+    padding: 0 234px 30px 234px;
+    margin: 0 auto 60px auto;
   }
 
   .news-section h2 {
-    font-size: 36px;
+    font-size: 53px;
+    margin-bottom: 70px;
   }
 
   .news-grid {
-    padding: 0 22%;
+    max-width: none;
+    gap: 20px;
+    margin-bottom: 40px;
+    padding: 0 0;
   }
 
   .news-grid img {
-    height: 320px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .account-name {
+    font-size: 33px;
+    margin: 25px 0;
+  }
+
+  .followers {
+    font-size: 27px;
+    margin: 22px 0 40px;
   }
 
   .insta-button {
-    padding: 15px 35px;
-    font-size: 18px;
+    padding: 17px 35px;
+    font-size: 30px;
+    border-radius: 70px;
   }
-}
+  }
+
