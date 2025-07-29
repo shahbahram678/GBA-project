@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Clash Grotesk', sans-serif;
 }
 
 /* Navbar styling */
@@ -39,6 +39,7 @@ body {
   display: flex;
   gap: 16px;
   font-size: 14px;
+  font-weight: 500;
   margin-top: 12px;
   flex-wrap: wrap;
 }
@@ -108,11 +109,12 @@ body {
 }
 .hero-content h1 {
   font-size: 2.5rem;
+  font-weight: 500;
   margin-bottom: 20px;
 }
 .hero-content p {
-  font-weight: 300;
-  color: #656a6b;
+  font-weight: 400;
+  color: #1a1b1b;
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 16px;
@@ -125,8 +127,8 @@ body {
     }
 
     .osection-container h2 {
-        font-weight: 300;
-        color: #282d2e;
+        font-size: 2.5rem;
+  font-weight: 500;
       font-size: 21px;
       margin-bottom: 16px;
     }
@@ -142,8 +144,9 @@ body {
       min-width: 100px;
     }
     .otext-column p{
-        color: #595d5e;
+        color: #1a1b1b;
         font-size: 13px;
+        font-weight: 400;
         line-height: 22px;
         margin-bottom: 16px;
     }
@@ -197,11 +200,13 @@ body {
 
 .left h2 {
   font-size: 24px;
+  font-weight: 500;
   margin-bottom: 16px;
 }
 
 .left p {
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.6;
   margin-bottom: 16px;
 }
@@ -213,6 +218,7 @@ body {
   color: #e74c3c;
   text-decoration: none;
   font-size: 14px;
+  font-weight: 400;
 }
 
 .special-btn:hover {
@@ -230,6 +236,7 @@ body {
 .right ul {
   list-style: none;
   font-size: 14px;
+  font-weight: 400;
 }
 
 .right ul li {
@@ -317,6 +324,7 @@ body {
 /* Heading */
 .content-cont h2 {
   font-size: 2.5rem;
+  font-weight: 500;
   color: #222;
   margin-bottom: 10px;
 }
@@ -324,6 +332,7 @@ body {
 /* Paragraph */
 .content-cont p {
   font-size: 1.1rem;
+  font-weight: 400;
   color: #444;
   line-height: 1.6;
   margin-bottom: 30px;
@@ -412,10 +421,12 @@ body {
 .contects p {
     margin: 0.5rem 0;
     line-height: 1.4;
+    font-weight: 500;
 }
 
 .phone, .email {
     font-size: 0.9rem;
+    font-weight: 500;
 }
 
 .contact-btn {
@@ -425,7 +436,7 @@ body {
     padding: 0.5rem 1rem;
     text-decoration: none;
     border-radius: 4px;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 0.9rem;
     border:1px solid #da7257
 }
@@ -464,10 +475,13 @@ body {
     gap: 1rem;
     align-items: center;
 }
-
+.bottom-left p{
+  font-weight: 400;
+}
 .bottom-left a {
     color: #333;
     text-decoration: none;
+    font-weight: 400;
 }
 
 .bottom-left a:hover {
@@ -476,6 +490,7 @@ body {
 
 .credit {
     color: #999;
+    font-weight: 400;
     font-style: italic;
 }
 
@@ -1308,7 +1323,7 @@ gap: 16px !important;
   }
   
   .oimage-row img {
-    height: 220px;
+    height:100%;
   }
 
   /* special and slider section */
