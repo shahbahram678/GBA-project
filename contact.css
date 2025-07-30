@@ -127,7 +127,7 @@ body {
 }
 
 .phone-form {
-  color: #d45027;
+  color: #d45027 !important;
   font-weight: 500;
   margin-bottom: 20px;
 }
@@ -315,6 +315,7 @@ button:hover {
 .phone, .email {
     font-size: 0.9rem;
     font-weight: 500;
+    color: black !important;
 }
 
 .contact-btn {
