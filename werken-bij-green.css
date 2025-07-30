@@ -1,4 +1,3 @@
-/* Reset and basic styles */
 * {
   margin: 0;
   padding: 0;
@@ -14,9 +13,9 @@ body {
 }
 .topbar p {
   padding: 5px 0;
-  font-weight: 500;
   text-align: center;
   font-size: 14px;
+  font-weight: 500;
   color: #333;
 }
 
@@ -52,8 +51,8 @@ body {
 .nav-links {
   display: flex;
   gap: 16px;
-  font-weight: 500;
   font-size: 14px;
+  font-weight: 500;
   margin-top: 12px;
   flex-wrap: wrap;
 }
@@ -104,174 +103,186 @@ body {
   transition: all 0.3s ease;
 }
 
-/* form section */
-
-.container-form {
-  display: flex;
-  justify-content: start;
-  align-items: flex-start;
-  gap: 90px;
-  padding: 60px 194px;
-}
-
-.left-form h2 {
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: 10px;
-}
-
-.left-form p {
-  margin-bottom: 10px;
-  font-weight: 400;
-  color: #333;
-}
-
-.phone-form {
-  color: #d45027;
-  font-weight: 500;
-  margin-bottom: 20px;
-}
-
-.left-form img {
-  max-width: 300px;
-  height: auto;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 650px;
-  gap: 15px;
-}
-
-.row-form {
-  display: flex;
-  gap: 10px;
-}
-
-.row-form .field-form {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.field-form {
-  display: flex;
-  flex-direction: column;
-}
-
-label {
-  font-size: 14px;
-  font-weight: 500;
-  margin-bottom: 5px;
-
-}
-
-input,
-textarea {
-  padding: 3px;
-  font-size: 16px;
-  font-weight: 500;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  width: 100%;
-}
-input::placeholder{
-    font-size: 12px;
-    font-weight:500;
-    padding-left: 10px;
-}
-
-textarea {
-  resize: vertical;
-  height: 70px;
-  border-radius: 10px;
-}
-
-.checkbox-container {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  font-size: 14px;
-  line-height: 1.4;
-  cursor: pointer;
-  
-}
-
-/* Hide native checkbox */
-.checkbox-container input[type="checkbox"] {
-  display: none;
-}
-
-/* Label with space for custom circle */
-.checkbox-container label {
+/* video Section */
+.video {
   position: relative;
-  padding-left: 28px;
+  min-height: 100vh;
+  overflow: hidden;
 }
 
-/* Circle outline */
-.checkbox-container label::before {
-  content: '';
+.top-video {
   position: absolute;
+  top: 0;
   left: 0;
-  top: 2px;
-  width: 14px;
-  height: 14px;
-  border: 2px solid #e9542c;
-  border-radius: 50%;
-  background-color: white;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
-/* Centered checkmark */
-.checkbox-container input[type="checkbox"]:checked + label::after {
-  content: '✔';
-  position: absolute;
-  left: 0px;
-  top: 3px;
-  border-radius: 50%;
-  width: 16px;
-  height: 16px;
+/* image section */
+
+/* .image{
+    position: relative;
+}
+.image img{
+    width: 100%;
+}
+.ylink{
+    background-color: #59b589;
+    max-width: 41%;
+    padding: 8px 41px 8px 20px;
+    position: absolute;
+    bottom: 6rem;
+    right: 0;
+}
+.ylink a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+} */
+
+ /* upper green content  */
+
+ /* first part */
+
+ .main-met{
+background: linear-gradient(to bottom, #fdfefe, #e0e4e7, #fdfefe);
+
+ }
+ .met{
+padding: 65px 0;
+ }
+ .met h1{
+max-width: 50vw;
+font-size: 37px;
+text-align: center;
+font-weight: 500;
+margin: 0 auto 25px auto;
+ }
+ .met p{
+max-width: 37vw;
+font-size: 18px;
+font-weight: 400;
+margin: 0 auto;
+text-align: center;
+ }
+
+ /* second part */
+
+ .main-green{
+background-color: #59b589;
+ }
+ .green{
+max-width: 37vw;
+margin: 0 auto;
+text-align: center;
+padding: 65px 0;
+color: white;
+ }
+ .green h2{
+    font-size: 35px;
+font-weight: 500;
+margin: 0 0 20px 0;
+ }
+ .green p{
+font-weight: 400;
+font-size: 16px;
+ }
+
+ /* het section */
+.main-het{
+    background-color: #f4f5f6;
+}
+ .container-het {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 80px 0;
+  text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.step {
+  gap: 16px;
+  padding: 20px 0;
+  border-top: 1px solid #e2e8f0;
+  text-align: center;
+}
+
+.step:last-child {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.icon {
+  font-size: 18px;
+  color: #59b589; /* Green */
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-  background-color: #e9542c;
-  font-size: 12px;
-  pointer-events: none;
+  flex-shrink: 0;
 }
 
-
-
-
-button {
-  padding: 10px;
-  background-color: #d45027;
-  color: white;
-  border: none;
-  border-radius: 25px;
-  font-size: 16px;
+.text h3 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  margin: 0 0 8px;
   font-weight: 500;
-  cursor: pointer;
 }
 
-button:hover {
-  background-color: #c03f1f;
-}
-.last-para {
-  font-size: 16px;
+.text p {
+  margin: 0;
+  color: #4b5563; /* Gray-600 */
+  font-size: 15px;
   font-weight: 400;
-  margin-top: 60px;
-}
-.last-star {
-  color: #c03f1f;
-  font-size: 20px;
-  margin-right: 2px;
+  line-height: 1.6;
 }
 
-/* map saction*/
+/* last contect section */
 
-.map{
-    width: 100%
+.main-contact{
+background-color: #f4f5f6;
+}
+.contact-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+max-width: 510px;
+  margin: 0 auto;
+  padding: 0 0 160px 0;
+  text-align: center;
+}
+.contact-sec h3{
+font-weight: 500;
+}
+.contact-sec p{
+font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  
+}
+
+.contact-btn {
+    background-color: white;
+    color: #da7257;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 70px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border: 1px solid #da7257;
+    width: fit-content; /* This makes the width match the content */
+    display: inline-block; /* Alternative approach that also works */
+    white-space: nowrap; /* Prevents text from wrapping */
+    align-self: center;
 }
 
 /* footer section */
@@ -308,8 +319,8 @@ button:hover {
 
 .contects p {
     margin: 0.5rem 0;
-    font-weight: 500;
     line-height: 1.4;
+    font-weight: 500;
 }
 
 .phone, .email {
@@ -324,9 +335,8 @@ button:hover {
     padding: 0.5rem 1rem;
     text-decoration: none;
     border-radius: 70px;
-    font-weight: bold;
-    font-size: 0.9rem;
     font-weight: 500;
+    font-size: 0.9rem;
     border:1px solid #da7257
 }
 
@@ -364,13 +374,15 @@ button:hover {
     gap: 1rem;
     align-items: center;
 }
-.bottom-leftp{
-    font-weight: 400;
+
+.bottom-left p{
+  font-weight: 400;
 }
+
 .bottom-left a {
     color: #333;
-    font-weight: 400;
     text-decoration: none;
+    font-weight: 400;
 }
 
 .bottom-left a:hover {
@@ -379,8 +391,8 @@ button:hover {
 
 .credit {
     color: #999;
-    font-weight: 400;
     font-style: italic;
+    font-weight: 400;
 }
 
 /* -----------------------------
@@ -427,124 +439,77 @@ button:hover {
     align-items: flex-center;
   }
 
- /* form section */
+  /* video section */
+  .video {
+    min-height: 60vh;
+  }
 
- .container-form {
-  display: flex;
-  justify-content: start;
-  align-items: flex-start;
-  gap: 40px;
-  padding: 30px 20px;
-  flex-direction: column;
-}
+/* upper green content  */
 
-.left-form h2 {
-  font-size: 22px;
-  margin-bottom: 8px;
-}
+  .met {
+    padding: 40px 20px;
+  }
+  .met h1 {
+    max-width: 100%;
+    font-size: 24px;
+  }
+  .met p {
+    max-width: 100%;
+    font-size: 16px;
+  }
+  .green {
+    max-width: 100%;
+    padding: 40px 20px;
+  }
+  .green h2 {
+    font-size: 24px;
+  }
+  .green p {
+    font-size: 14px;
+  }
 
-.left-form p {
-  margin-bottom: 8px;
-  color: #333;
-  font-size: 14px;
-}
+  /* het section */
 
-.phone-form {
-  color: #d45027;
-  font-weight: bold;
-  margin-bottom: 15px;
-  font-size: 16px;
-}
+  .container-het {
+    padding: 40px 20px;
+    max-width: 100%;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .step {
+    padding: 15px 0;
+  }
+  
+  .text p {
+    font-size: 14px;
+  }
 
-.left-form img {
-  max-width: 100%;
-  height: auto;
-  display: none;
-}
+  /* last contect section */
 
-form {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  gap: 12px;
-}
+  .contact-sec {
+    max-width: 80%;
+    padding: 0 0 80px 0;
+    gap: 10px;
+  }
+  
+  .contact-sec h3 {
+    font-size: 1.3rem;
+  }
+  
+  .contact-sec p {
+    font-size: 14px;
+  }
+  
+  .contact-btn {
+    padding: 0.4rem 0.9rem;
+    font-size: 0.85rem;
+  }
 
-.row-form {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.field-form {
-  display: flex;
-  flex-direction: column;
-}
-
-label {
-  font-size: 13px;
-  margin-bottom: 4px;
-}
-
-input,
-textarea {
-  padding: 8px 12px;
-  font-size: 14px;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  width: 100%;
-}
-
-textarea {
-  resize: vertical;
-  min-height: 100px;
-  border-radius: 10px;
-}
-
-.checkbox-form {
-  display: flex;
-  align-items: flex-start;
-  font-weight: 400;
-  font-size: 12px;
-  gap: 8px;
-}
-
-.input-check {
-  margin-top: 3px;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #d45027;
-  color: white;
-  border: none;
-  border-radius: 25px;
-  font-size: 16px;
-  cursor: pointer;
-  width: 100%;
-}
-
-button:hover {
-  background-color: #c03f1f;
-}
-
-.last-para {
-  font-size: 14px;
-  margin-top: 30px;
-}
-
-.last-star {
-  color: #c03f1f;
-  font-size: 16px;
-  margin-right: 2px;
-}
-
-.map {
-  width: 100%;
-  height:600px;
-  object-fit: cover;
-}
-
- /* footer section */
+  /* footer section */
 
   .logo-footer {
         width: 80px;
@@ -570,6 +535,7 @@ button:hover {
     .contact-btn {
         font-size: 0.8rem;
         padding: 0.4rem 0.8rem;
+        border-radius: 70px;
     }
 
     .footer-down {
@@ -588,7 +554,6 @@ button:hover {
         flex-direction: column;
         gap: 0.5rem;
     }
-
 }
 
 /* -----------------------------
@@ -614,119 +579,50 @@ button:hover {
     height: 25px;
   }
 
-  /* form section */
+/* upper green content  */
 
-.container-form {
-  display: flex;
-  justify-content: start;
-  align-items: flex-start;
-  gap: 40px;
-  padding: 40px 40px;
-  flex-direction: column;
-}
+  .met {
+    padding: 50px 40px;
+  }
+  .met h1 {
+    max-width: 80vw;
+    font-size: 28px;
+  }
+  .met p {
+    max-width: 70vw;
+    font-size: 16px;
+  }
+  .green {
+    max-width: 70vw;
+    padding: 50px 30px;
+  }
+  .green h2 {
+    font-size: 28px;
+  }
 
-.left-form h2 {
-  font-size: 22px;
-  margin-bottom: 8px;
-}
+  /* het section */
 
-.left-form p {
-  margin-bottom: 8px;
-  color: #333;
-  font-size: 14px;
-}
+  .container-het {
+    padding: 50px 40px;
+    max-width: 100%;
+  }
+  
+  h2 {
+    font-size: 26px;
+  }
 
-.phone-form {
-  color: #d45027;
-  font-weight: bold;
-  margin-bottom: 15px;
-  font-size: 16px;
-}
+  /* last contect section */
 
-.left-form img {
-  max-width: 100%;
-  height: auto;
-  display: none;
-}
+  .contact-sec {
+    max-width: 80%;
+    padding: 0 0 100px 0;
+  }
+  
+  .contact-sec h3 {
+    font-size: 1.4rem;
+  }
 
-form {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  gap: 12px;
-}
-
-.row-form {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.field-form {
-  display: flex;
-  flex-direction: column;
-}
-
-label {
-  font-size: 13px;
-  margin-bottom: 4px;
-  font-weight: 500;
-}
-
-input,
-textarea {
-  padding: 8px 12px;
-  font-size: 14px;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  width: 100%;
-}
-
-textarea {
-  resize: vertical;
-  min-height: 100px;
-  border-radius: 10px;
-}
-
-.checkbox-form {
-  display: flex;
-  align-items: flex-start;
-  font-weight: 400;
-  font-size: 12px;
-  gap: 8px;
-}
-
-.input-check {
-  margin-top: 3px;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #d45027;
-  color: white;
-  border: none;
-  border-radius: 25px;
-  font-size: 16px;
-  cursor: pointer;
-  width: 100%;
-}
-
-button:hover {
-  background-color: #c03f1f;
-}
-
-.last-para {
-  font-size: 14px;
-  margin-top: 30px;
-}
-
-.last-star {
-  color: #c03f1f;
-  font-size: 16px;
-  margin-right: 2px;
-}
-
-/* footer section */
+  /* footer section */
 
   .site-footer{
     padding: 20px 40px;
@@ -763,9 +659,7 @@ button:hover {
     .footer-bottom {
         font-size: 0.75rem;
     }
-
 }
-
 /* -----------------------------
    SMALL LAPTOPS: 768px to 1023px
 ------------------------------ */
@@ -789,29 +683,46 @@ button:hover {
     height: 30px;
   }
 
-  /* form section */
+  /* upper green content  */
 
-  .container-form {
-    flex-direction: row;
-    padding: 50px 60px;
-    gap: 60px;
+  .met {
+    padding: 55px 60px;
+  }
+  .met h1 {
+    max-width: 70vw;
+    font-size: 32px;
+  }
+  .met p {
+    max-width: 60vw;
+  }
+  .green {
+    max-width: 60vw;
+    padding: 55px 40px;
+  }
+  .green h2 {
+    font-size: 32px;
+  }
+
+  /* het section */
+
+  .container-het {
+    padding: 60px 60px;
+    max-width: 90%;
   }
   
-  .left-form {
-    flex: 1;
+  h2 {
+    font-size: 28px;
+  }
+
+   /* last contect section */
+
+   .contact-sec {
+    max-width: 510px;
+    padding: 0 0 120px 0;
   }
   
-  form {
-    flex: 2;
-    max-width: none;
-  }
-  
-  .left-form h2 {
-    font-size: 24px;
-  }
-  
-  .left-form img {
-    max-width: 250px;
+  .contact-sec h3 {
+    font-size: 1.5rem;
   }
 
   /* footer section */
@@ -879,23 +790,26 @@ gap: 11px !important;
     height: 10px;
   }
 
-  /* form section */
+  /* upper green content  */
 
-.container-form {
+  .met {
     padding: 60px 80px;
-    gap: 70px;
   }
-  
-  .left-form img {
-    max-width: 280px;
+  .met h1 {
+    max-width: 60vw;
   }
-  
-  .left-form h2 {
-    font-size: 24px;
+  .met p {
+    max-width: 50vw;
   }
-  
-  form {
-    max-width: 600px;
+  .green {
+    max-width: 50vw;
+    padding: 60px 50px;
+  }
+
+  /* het section */
+
+  .container-het {
+    max-width: 650px;
   }
 
   /* footer section */
@@ -937,13 +851,13 @@ gap: 16px !important;
     .footer-bottom {
         font-size: 0.8rem;
     }
-
+    
 }
 
 /* -----------------------------
    DESKTOP: 1280px..........
 ------------------------------ */
-@media (min-width: 1280px) {
+@media (min-width: 1280px)  {
   .topbar {
     padding: 4px 0;
   }
