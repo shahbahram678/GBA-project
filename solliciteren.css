@@ -55,7 +55,7 @@ body {
   gap: 16px;
   font-size: 14px;
   font-weight: 500;
-  margin-top: 12px;
+  /* margin-top: 12px; */
   flex-wrap: wrap;
 }
 
@@ -420,6 +420,8 @@ textarea {
     display: flex;
     justify-content: space-between;
     padding-top: 1rem;
+    margin-top: 1rem;
+
     border-top: 1px solid #ddd;
     font-size: 0.8rem;
 }
@@ -430,8 +432,9 @@ textarea {
     align-items: center;
 }
 
-.bottom-left p{
+.bottom-left .copyright{
   font-weight: 400;
+margin-bottom: 0px;
 }
 
 .bottom-left a {

@@ -39,7 +39,7 @@ body {
   gap: 16px;
   font-size: 14px;
   font-weight: 500;
-  margin-top: 12px;
+  /* margin-top: 12px; */
   flex-wrap: wrap;
 }
 
@@ -335,6 +335,7 @@ p {
     display: flex;
     justify-content: space-between;
     padding-top: 1rem;
+    margin-top: 1rem;
     border-top: 1px solid #ddd;
     font-size: 0.8rem;
 }
@@ -342,17 +343,19 @@ p {
 .bottom-left {
     display: flex;
     gap: 1rem;
-    align-items: center;
+
 }
 
-.bottom-left p{
+.bottom-left .copyright{
   font-weight: 400;
+margin-bottom: 0px !important;
 }
 
 .bottom-left a {
     color: #333;
     text-decoration: none;
     font-weight: 400;
+    margin-top: 4px;
 }
 
 .bottom-left a:hover {
@@ -524,7 +527,11 @@ p {
     .bottom-left {
         flex-direction: column;
         gap: 0.5rem;
+    align-items: center;
+
     }
+
+ 
 }
 
 /* -----------------------------
@@ -1111,6 +1118,8 @@ gap: 16px !important;
     .footer-bottom {
         font-size: 0.8rem;
     }
+
+    
 }
 
 /* -----------------------------
