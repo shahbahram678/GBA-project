@@ -149,15 +149,15 @@ body {
   padding: 65px 0;
 }
 .met h1 {
-  max-width: 50vw;
-  font-size: 37px;
+  max-width: 53vw;
+  font-size: 48px;
   text-align: center;
   font-weight: 500;
   margin: 0 auto 25px auto;
 }
 .met p {
   max-width: 37vw;
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 400;
   margin: 0 auto;
   text-align: center;
@@ -176,13 +176,13 @@ body {
   color: white;
 }
 .green h2 {
-  font-size: 35px;
+  font-size: 36px;
   font-weight: 500;
   margin: 0 0 20px 0;
 }
 .green p {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 21px;
 }
 
 /* het section */
@@ -197,7 +197,7 @@ body {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 500;
   margin-bottom: 40px;
 }
@@ -229,13 +229,14 @@ h2 {
   align-items: center;
   justify-content: center;
   margin: 0 0 8px;
+  font-size: 30px;
   font-weight: 500;
 }
 
 .text p {
   margin: 0;
   color: #4b5563; /* Gray-600 */
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.6;
 }
@@ -256,21 +257,22 @@ h2 {
 }
 .contact-sec h3 {
   font-weight: 500;
+  font-size: 30px;
 }
 .contact-sec p {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.6;
 }
 
-.contact-btn {
+.meer-contact-btn {
   background-color: white;
   color: #da7257;
   padding: 0.5rem 1rem;
   text-decoration: none;
   border-radius: 70px;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 18px;
   border: 1px solid #da7257;
   width: fit-content; /* This makes the width match the content */
   display: inline-block; /* Alternative approach that also works */
@@ -314,11 +316,12 @@ h2 {
   margin: 0.5rem 0;
   line-height: 1.4;
   font-weight: 500;
+  font-size: 16px;
 }
 
 .phone,
 .email {
-  font-size: 0.9rem;
+  font-size: 16px;
   font-weight: 500;
   color: black !important;
 }
@@ -331,7 +334,7 @@ h2 {
   text-decoration: none;
   border-radius: 70px;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 16px;
   border: 1px solid #da7257;
 }
 
@@ -362,7 +365,7 @@ h2 {
   padding-top: 1rem;
   margin-top: 1rem;
   border-top: 1px solid #ddd;
-  font-size: 0.8rem;
+  font-size: 12px;
 }
 
 .bottom-left {
@@ -490,6 +493,9 @@ h2 {
   .step {
     padding: 15px 0;
   }
+  .text h3{
+    font-size: 20px;
+  }
 
   .text p {
     font-size: 14px;
@@ -511,7 +517,7 @@ h2 {
     font-size: 14px;
   }
 
-  .contact-btn {
+  .meer-contact-btn {
     padding: 0.4rem 0.9rem;
     font-size: 0.85rem;
   }
@@ -555,7 +561,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-    font-size: 0.7rem;
+    font-size: 12px;
   }
 
   .bottom-left {
@@ -623,6 +629,9 @@ h2 {
   h2 {
     font-size: 26px;
   }
+  .text h3{
+    font-size: 22px;
+  }
 
   /* last contect section */
 
@@ -669,7 +678,7 @@ h2 {
   }
 
   .footer-bottom {
-    font-size: 0.75rem;
+    font-size: 12px;
   }
 }
 /* -----------------------------
@@ -726,6 +735,10 @@ h2 {
     font-size: 28px;
   }
 
+  .text h3{
+    font-size: 25px;
+  }
+
   /* last contect section */
 
   .contact-sec {
@@ -748,7 +761,7 @@ h2 {
 
   .phone,
   .email {
-    font-size: 0.9rem;
+    font-size: 14px;
   }
   .contects {
     display: flex;
@@ -757,7 +770,7 @@ h2 {
     gap: 11px !important;
   }
   .contects p {
-    font-size: 11px;
+    font-size: 14px;
   }
 
   .contact-btn {
@@ -771,7 +784,7 @@ h2 {
   }
 
   .footer-bottom {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
 }
 
@@ -833,7 +846,7 @@ h2 {
   }
   .phone,
   .email {
-    font-size: 0.9rem;
+    font-size: 15px;
   }
   .contects {
     display: flex;
@@ -842,11 +855,11 @@ h2 {
     gap: 16px !important;
   }
   .contects p {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .contact-btn {
-    font-size: 14px;
+    font-size: 15px;
     border-radius: 70px;
     height: fit-content;
     width: fit-content;
@@ -856,7 +869,7 @@ h2 {
   }
 
   .footer-bottom {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
 }
 
@@ -868,7 +881,7 @@ h2 {
     padding: 4px 0;
   }
   .topbar p {
-    font-size: 18px;
+    font-size: 14px;
   }
   /* navbar */
   .navbar {
@@ -882,7 +895,7 @@ h2 {
 
   .nav-links {
     gap: 32px;
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .nav-links .werken img {
@@ -904,7 +917,7 @@ h2 {
   }
   .phone,
   .email {
-    font-size: 0.9rem;
+    font-size: 16px;
   }
   .contects {
     display: flex;
@@ -913,11 +926,11 @@ h2 {
     gap: 16px !important;
   }
   .contects p {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .contact-btn {
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 70px;
     height: fit-content;
     width: fit-content;
@@ -927,7 +940,7 @@ h2 {
   }
 
   .footer-bottom {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
 }
 

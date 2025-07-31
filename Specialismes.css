@@ -107,14 +107,14 @@ body {
   color: #333;
 }
 
-h2 {
+.content-container h2 {
   font-size: 24px;
   font-weight: 500;
   color: #1f1f1f;
   margin-bottom: 16px;
 }
 
-p {
+.content-container p {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.6;
@@ -293,12 +293,13 @@ p {
 .contects p {
   margin: 0.5rem 0;
   line-height: 1.4;
+  font-size: 16px;
   font-weight: 500;
 }
 
 .phone,
 .email {
-  font-size: 0.9rem;
+  font-size: 16px;
   font-weight: 500;
   color: black !important;
 }
@@ -311,7 +312,7 @@ p {
   text-decoration: none;
   border-radius: 70px;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 16px;
   border: 1px solid #da7257;
 }
 
@@ -342,7 +343,7 @@ p {
   padding-top: 1rem;
   margin-top: 1rem;
   border-top: 1px solid #ddd;
-  font-size: 0.8rem;
+  font-size: 12px;
 }
 
 .bottom-left {
@@ -421,14 +422,14 @@ p {
     color: #333;
   }
 
-  h2 {
+  .content-container h2 {
     font-size: 20px;
     font-weight: bold;
     color: #1f1f1f;
     margin-bottom: 12px;
   }
 
-  p {
+  .content-container p {
     font-size: 14px;
     line-height: 1.6;
     margin-bottom: 30px;
@@ -438,7 +439,7 @@ p {
 
   .specialismen {
     display: flex;
-    gap: 12px;
+    gap: 14px;
     flex-wrap: wrap;
     font-weight: 600;
     font-size: 13px;
@@ -526,7 +527,7 @@ p {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-    font-size: 0.7rem;
+    font-size: 12px;
   }
 
   .bottom-left {
@@ -564,13 +565,21 @@ p {
     margin: 0 auto;
   }
 
-  h2 {
+  .content-container h2 {
     font-size: 22px;
+  }
+
+  .content-container p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #444;
+    max-width: 100%;
   }
 
   .specialismen {
     gap: 15px;
-    font-size: 13.5px;
+    font-size: 15px;
   }
 
   /* container flex section */
@@ -643,7 +652,7 @@ p {
   }
 
   .footer-bottom {
-    font-size: 0.75rem;
+    font-size: 12px;
   }
 }
 
@@ -676,17 +685,17 @@ p {
     margin: 0 auto !important;
   }
 
-  h2 {
+  .content-container h2 {
     font-size: 23px;
   }
 
-  p {
-    font-size: 14.5px;
+  .content-container p {
+    font-size: 16px;
   }
 
   .specialismen {
     gap: 16px;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   /* container flex section */
@@ -701,12 +710,12 @@ p {
   }
 
   .text-section h2 {
-    font-size: 22px;
+    font-size: 25px;
     margin-bottom: 15px;
   }
 
   .text-section p {
-    font-size: 11px;
+    font-size: 16px;
     line-height: 1.6;
     margin-bottom: 14px;
   }
@@ -727,12 +736,12 @@ p {
   }
 
   .text-mid-section h2 {
-    font-size: 22px;
+    font-size: 25px;
     margin-bottom: 15px;
   }
 
   .text-mid-section p {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.6;
     margin-bottom: 14px;
   }
@@ -752,12 +761,12 @@ p {
   }
 
   .text-last-section h2 {
-    font-size: 22px;
+    font-size: 25px;
     margin-bottom: 15px;
   }
 
   .text-last-section p {
-    font-size: 11px;
+    font-size: 16px;
     line-height: 1.6;
     color: #333;
     margin-bottom: 14px;
@@ -784,7 +793,7 @@ p {
 
   .phone,
   .email {
-    font-size: 0.9rem;
+    font-size: 14px;
   }
   .contects {
     display: flex;
@@ -793,7 +802,7 @@ p {
     gap: 11px !important;
   }
   .contects p {
-    font-size: 11px;
+    font-size: 14px;
   }
 
   .contact-btn {
@@ -807,7 +816,7 @@ p {
   }
 
   .footer-bottom {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
 }
 
@@ -840,11 +849,15 @@ p {
     padding: 60px 0;
   }
 
-  h2 {
+  .content-container h2 {
     font-size: 24px;
+  }
+  .content-container p {
+    font-size: 17px;
   }
 
   .specialismen {
+    font-size: 17px;
     gap: 18px;
   }
 
@@ -860,12 +873,12 @@ p {
   }
 
   .text-section h2 {
-    font-size: 25px;
+    font-size: 27px;
     margin-bottom: 18px;
   }
 
   .text-section p {
-    font-size: 13px;
+    font-size: 17px;
     line-height: 1.6;
     margin-bottom: 15px;
   }
@@ -886,12 +899,12 @@ p {
   }
 
   .text-mid-section h2 {
-    font-size: 25px;
+    font-size: 27px;
     margin-bottom: 18px;
   }
 
   .text-mid-section p {
-    font-size: 13px;
+    font-size: 17px;
     line-height: 1.6;
     margin-bottom: 15px;
   }
@@ -911,12 +924,12 @@ p {
   }
 
   .text-last-section h2 {
-    font-size: 25px;
+    font-size: 27px;
     margin-bottom: 18px;
   }
 
   .text-last-section p {
-    font-size: 13px;
+    font-size: 17px;
     line-height: 1.6;
     color: #333;
     margin-bottom: 15px;
@@ -941,7 +954,7 @@ p {
   }
   .phone,
   .email {
-    font-size: 0.9rem;
+    font-size:15px;
   }
   .contects {
     display: flex;
@@ -950,11 +963,11 @@ p {
     gap: 16px !important;
   }
   .contects p {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .contact-btn {
-    font-size: 14px;
+    font-size: 15px;
     border-radius: 70px;
     height: fit-content;
     width: fit-content;
@@ -964,7 +977,7 @@ p {
   }
 
   .footer-bottom {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
 }
 
@@ -983,7 +996,7 @@ p {
 
   .nav-links {
     gap: 32px;
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .nav-links .werken img {
@@ -998,6 +1011,7 @@ p {
   }
 
   .specialismen {
+    font-size: 18px;
     gap: 20px;
   }
 
@@ -1007,19 +1021,24 @@ p {
     gap: 90px;
     min-height: 100vh;
   }
-
+.content-container h2 {
+    font-size: 30px;
+  }
+  .content-container p {
+    font-size: 18px;
+  }
   .text-section {
     padding: 50px 0 50px 194px;
     max-width: 668px;
   }
 
   .text-section h2 {
-    font-size: 28px;
+    font-size: 30px;
     margin-bottom: 20px;
   }
 
   .text-section p {
-    font-size: 13px;
+    font-size: 18px;
     line-height: 1.6;
     margin-bottom: 16px;
   }
@@ -1040,12 +1059,12 @@ p {
   }
 
   .text-mid-section h2 {
-    font-size: 28px;
+    font-size: 30px;
     margin-bottom: 20px;
   }
 
   .text-mid-section p {
-    font-size: 13px;
+    font-size: 18px;
     line-height: 1.6;
     margin-bottom: 16px;
   }
@@ -1067,12 +1086,12 @@ p {
   }
 
   .text-last-section h2 {
-    font-size: 28px;
+    font-size: 30px;
     margin-bottom: 20px;
   }
 
   .text-last-section p {
-    font-size: 13px;
+    font-size: 18px;
     line-height: 1.6;
     margin-bottom: 16px;
   }
@@ -1096,7 +1115,7 @@ p {
   }
   .phone,
   .email {
-    font-size: 0.9rem;
+    font-size: 16px;
   }
   .contects {
     display: flex;
@@ -1105,11 +1124,11 @@ p {
     gap: 16px !important;
   }
   .contects p {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .contact-btn {
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 70px;
     height: fit-content;
     width: fit-content;
@@ -1119,7 +1138,7 @@ p {
   }
 
   .footer-bottom {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
 }
 

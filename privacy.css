@@ -92,20 +92,25 @@ body {
   max-width: 1340px;
 }
 
+.section-text
+{
+  width:60%
+}
+
 .container-text h1 {
-  font-size: 45px;
+  font-size: 48px;
   margin-bottom: 10px;
   font-weight: 500;
 }
 
 .container-text h2 {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 500;
   margin-bottom: 5px;
 }
 
 .updated {
-  font-size: 0.9rem;
+  font-size: 18px;
   font-weight: 400;
   color: #666;
   margin-bottom: 90px;
@@ -117,9 +122,13 @@ body {
 }
 
 .section-text h3 {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 500;
   margin-bottom: 10px;
+}
+
+.section-text p{
+font-size: 18px;
 }
 
 .section-text ul {
@@ -129,6 +138,7 @@ body {
 .section-text ul li {
   margin-bottom: 10px;
   font-weight: 400;
+  font-size: 18px;
 }
 
 /* footer section */
@@ -215,7 +225,7 @@ body {
   padding-top: 1rem;
   margin-top: 1rem;
   border-top: 1px solid #ddd;
-  font-size: 0.8rem;
+  font-size: 12px;
 }
 
 .bottom-left {
@@ -260,6 +270,10 @@ body {
   /* navbar */
   .navbar {
   }
+  .section-text
+{
+  width:100%
+}
 
   .container {
     width: 95%;
@@ -338,7 +352,12 @@ body {
     font-weight: 500;
     margin-bottom: 8px;
   }
-
+  .section-text p{
+ font-size: 15px; 
+}
+.section-text ul li{
+  font-size: 15px;
+}
   .section-text ul {
     padding-left: 18px;
   }
@@ -386,7 +405,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-    font-size: 0.7rem;
+    font-size: 12px;
   }
 
   .bottom-left {
@@ -404,6 +423,11 @@ body {
     margin: auto;
   }
 
+   .section-text
+{
+  width:100%;
+
+}
   /* navbar */
   .navbar {
   }
@@ -427,6 +451,8 @@ body {
 
   .container-text {
     padding: 30px 0px;
+
+    width: 95%;
     margin: 0 auto;
   }
 
@@ -476,7 +502,7 @@ body {
   }
 
   .footer-bottom {
-    font-size: 0.75rem;
+    font-size: 12px;
   }
 }
 
@@ -488,6 +514,13 @@ body {
     width: 95%;
     margin: auto;
   }
+
+  
+
+ .section-text
+{
+  width:80%
+}
 
   /* navbar */
   .navbar {
@@ -521,7 +554,12 @@ body {
   .section-text h3 {
     font-size: 22px;
   }
-
+.section-text p{
+  font-size: 16px;
+}
+.section-text ul li{
+  font-size: 16px;
+}
   .updated {
     margin-bottom: 75px;
   }
@@ -537,7 +575,7 @@ body {
 
   .phone,
   .email {
-    font-size: 0.9rem;
+    font-size: 14px;
   }
   .contects {
     display: flex;
@@ -546,7 +584,7 @@ body {
     gap: 11px !important;
   }
   .contects p {
-    font-size: 11px;
+    font-size: 14px;
   }
 
   .contact-btn {
@@ -560,7 +598,7 @@ body {
   }
 
   .footer-bottom {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
 }
 
@@ -568,6 +606,11 @@ body {
    DESKTOP: 1024px to 1279px
 ------------------------------ */
 @media (min-width: 1024px) and (max-width: 1279px) {
+  
+   .section-text
+{
+  width:80%
+}
   /* navbar */
   .navbar {
   }
@@ -600,9 +643,14 @@ body {
   }
 
   .section-text h3 {
-    font-size: 22px;
+    font-size: 23px;
   }
-
+.section-text p{
+  font-size: 17px;
+}
+.section-text ul li{
+  font-size: 17px;
+}
   .updated {
     margin-bottom: 75px;
   }
@@ -621,7 +669,7 @@ body {
   }
   .phone,
   .email {
-    font-size: 0.9rem;
+    font-size: 15px;
   }
   .contects {
     display: flex;
@@ -630,11 +678,11 @@ body {
     gap: 16px !important;
   }
   .contects p {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .contact-btn {
-    font-size: 14px;
+    font-size: 15px;
     border-radius: 70px;
     height: fit-content;
     width: fit-content;
@@ -644,7 +692,7 @@ body {
   }
 
   .footer-bottom {
-    font-size: 0.8rem;
+    font-size:12px;
   }
 }
 
@@ -670,7 +718,7 @@ body {
 
   .nav-links {
     gap: 32px;
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .nav-links .werken img {
@@ -692,7 +740,7 @@ body {
   }
   .phone,
   .email {
-    font-size: 0.9rem;
+    font-size: 16px;
   }
   .contects {
     display: flex;
@@ -701,11 +749,11 @@ body {
     gap: 16px !important;
   }
   .contects p {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .contact-btn {
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 70px;
     height: fit-content;
     width: fit-content;
@@ -715,7 +763,7 @@ body {
   }
 
   .footer-bottom {
-    font-size: 0.8rem;
+    font-size:12px;
   }
 }
 

@@ -110,13 +110,14 @@ body {
 }
 
 .left-form h2 {
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 500;
   margin-bottom: 10px;
 }
 
 .left-form p {
   margin-bottom: 10px;
+  font-size: 21px;
   font-weight: 400;
   color: #333;
 }
@@ -124,6 +125,7 @@ body {
 .phone-form {
   color: #d45027 !important;
   font-weight: 500;
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
@@ -163,7 +165,7 @@ label {
 
 input,
 textarea {
-  padding: 3px;
+  padding: 5px;
   font-size: 16px;
   font-weight: 500;
   border: 1px solid #ccc;
@@ -171,7 +173,7 @@ textarea {
   width: 100%;
 }
 input::placeholder {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
   padding-left: 10px;
 }
@@ -186,9 +188,11 @@ textarea {
   display: flex;
   align-items: flex-start;
   gap: 10px;
-  font-size: 14px;
   line-height: 1.4;
   cursor: pointer;
+}
+.checkbox-container label{
+  font-size: 13px;
 }
 
 /* Hide native checkbox */
@@ -239,7 +243,7 @@ button {
   color: white;
   border: none;
   border-radius: 25px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   cursor: pointer;
 }
@@ -248,13 +252,13 @@ button:hover {
   background-color: #c03f1f;
 }
 .last-para {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 400;
   margin-top: 60px;
 }
 .last-star {
   color: #c03f1f;
-  font-size: 20px;
+  font-size: 18px;
   margin-right: 2px;
 }
 
@@ -348,7 +352,7 @@ button:hover {
   justify-content: space-between;
   padding-top: 1rem;
   border-top: 1px solid #ddd;
-  font-size: 0.8rem;
+  font-size: 12px;
 }
 
 .bottom-left {
@@ -404,7 +408,7 @@ button:hover {
     display: none;
     flex-direction: column;
     width: 100%;
-    margin-top: 16px;
+    margin-top: 15px;
   }
 
   #menu-toggle:checked + .hamburger + .nav-links {
@@ -585,7 +589,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-    font-size: 0.7rem;
+    font-size: 12px;
   }
 
   .bottom-left {
@@ -771,7 +775,7 @@ button:hover {
   }
 
   .footer-bottom {
-    font-size: 0.75rem;
+    font-size: 12px;
   }
 }
 
@@ -837,7 +841,7 @@ button:hover {
 
   .phone,
   .email {
-    font-size: 0.9rem;
+    font-size: 14px;
   }
   .contects {
     display: flex;
@@ -846,7 +850,7 @@ button:hover {
     gap: 11px !important;
   }
   .contects p {
-    font-size: 11px;
+    font-size: 14px;
   }
 
   .contact-btn {
@@ -860,7 +864,7 @@ button:hover {
   }
 
   .footer-bottom {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
 }
 
@@ -919,7 +923,7 @@ button:hover {
   }
   .phone,
   .email {
-    font-size: 0.9rem;
+    font-size: 15px;
   }
   .contects {
     display: flex;
@@ -928,11 +932,11 @@ button:hover {
     gap: 16px !important;
   }
   .contects p {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .contact-btn {
-    font-size: 14px;
+    font-size: 15px;
     border-radius: 70px;
     height: fit-content;
     width: fit-content;
@@ -942,7 +946,7 @@ button:hover {
   }
 
   .footer-bottom {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
 }
 
@@ -954,7 +958,7 @@ button:hover {
     padding: 4px 0;
   }
   .topbar p {
-    font-size: 18px;
+    font-size: 14px;
   }
   /* navbar */
   .navbar {
@@ -968,7 +972,7 @@ button:hover {
 
   .nav-links {
     gap: 32px;
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .nav-links .werken img {
@@ -990,7 +994,7 @@ button:hover {
   }
   .phone,
   .email {
-    font-size: 0.9rem;
+    font-size: 16px;
   }
   .contects {
     display: flex;
@@ -999,11 +1003,11 @@ button:hover {
     gap: 16px !important;
   }
   .contects p {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .contact-btn {
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 70px;
     height: fit-content;
     width: fit-content;
@@ -1013,7 +1017,7 @@ button:hover {
   }
 
   .footer-bottom {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
 }
 

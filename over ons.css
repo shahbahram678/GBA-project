@@ -126,7 +126,7 @@ body {
 }
 
 .osection-container h2 {
-  font-size: 2.5rem;
+  font-size: 30px;
   font-weight: 500;
   font-size: 21px;
   margin-bottom: 16px;
@@ -201,6 +201,10 @@ body {
   font-weight: 500;
   margin-bottom: 16px;
 }
+.left .para{
+  font-size: 15px;
+  margin-bottom: 16px;
+}
 
 .left p {
   font-size: 14px;
@@ -240,13 +244,14 @@ body {
 .right ul li {
   margin-bottom: 10px;
   display: flex;
+  gap: 10px;
   flex-direction: row;
   line-height: 20px;
 }
 
 .icon {
   color: green;
-  margin-right: 10px;
+  align-self: flex-start;
   font-size: 16px;
 }
 /* bottom slider */
@@ -320,7 +325,7 @@ body {
 
 /* Heading */
 .content-cont h2 {
-  font-size: 2.5rem;
+  font-size: 30px;
   font-weight: 500;
   color: #222;
   margin-bottom: 10px;
@@ -328,7 +333,7 @@ body {
 
 /* Paragraph */
 .content-cont p {
-  font-size: 1.1rem;
+  font-size: 13px;
   font-weight: 400;
   color: #444;
   line-height: 1.6;
@@ -418,6 +423,7 @@ body {
 .contects p {
   margin: 0.5rem 0;
   line-height: 1.4;
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -467,7 +473,7 @@ body {
   padding-top: 1rem;
   margin-top: 1rem;
   border-top: 1px solid #ddd;
-  font-size: 0.8rem;
+  font-size: 12px;
 }
 
 .bottom-left {
@@ -477,6 +483,7 @@ body {
 }
 .bottom-left .copyright {
   font-weight: 400;
+  font-size: 12px;
   margin-bottom: 0px;
 }
 .bottom-left a {
@@ -629,10 +636,13 @@ body {
     font-size: 20px !important;
     margin-bottom: 12px !important;
   }
+  .left .para{
+  font-size: 15px;
+}
 
   .left p {
     font-size: 13px !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 16px !important;
     line-height: 1.5 !important;
   }
 
@@ -688,13 +698,13 @@ body {
   }
 
   .content-cont h2 {
-    font-size: 1.8rem;
+    font-size: 24px;
     color: #222;
     margin-bottom: 10px;
   }
 
   .content-cont p {
-    font-size: 1rem;
+    font-size: 14px;
     color: #444;
     line-height: 1.5;
     margin-bottom: 20px;
@@ -744,7 +754,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-    font-size: 0.7rem;
+    font-size: 12px;
   }
 
   .bottom-left {
@@ -767,7 +777,7 @@ body {
 
   .nav-links {
     gap: 20px;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 0;
   }
 
@@ -843,7 +853,9 @@ body {
   .left h2 {
     font-size: 22px !important;
   }
-
+.left .para{
+  font-size: 15px;
+}
   .left p {
     font-size: 13.5px !important;
     line-height: 1.5 !important;
@@ -883,12 +895,12 @@ body {
   }
 
   .content-cont h2 {
-    font-size: 2rem;
+    font-size: 25px;
     margin-bottom: 12px;
   }
 
   .content-cont p {
-    font-size: 1.05rem;
+    font-size: 15px;
     margin-bottom: 25px;
   }
 
@@ -928,7 +940,7 @@ body {
   }
 
   .footer-bottom {
-    font-size: 0.75rem;
+    font-size: 12px;
   }
 }
 
@@ -1026,9 +1038,11 @@ body {
   .left h2 {
     font-size: 23px !important;
   }
-
+.left .para{
+  font-size: 16px;
+}
   .left p {
-    font-size: 12px !important;
+    font-size: 14px !important;
     line-height: 1.55 !important;
   }
 
@@ -1038,7 +1052,7 @@ body {
     top: 35px !important;
   }
   .right ul {
-    font-size: 13.5px !important;
+    font-size: 14px !important;
   }
 
   .special-btn {
@@ -1072,11 +1086,11 @@ body {
   }
 
   .content-cont h2 {
-    font-size: 2.2rem;
+    font-size: 26px;
   }
 
   .content-cont p {
-    font-size: 1.1rem;
+    font-size: 16;
   }
 
   /* footer section */
@@ -1093,7 +1107,7 @@ body {
 
   .phone,
   .email {
-    font-size: 0.9rem;
+    font-size: 14px;
   }
   .contects {
     display: flex;
@@ -1102,7 +1116,7 @@ body {
     gap: 11px !important;
   }
   .contects p {
-    font-size: 11px;
+    font-size: 14px;
   }
 
   .contact-btn {
@@ -1116,7 +1130,7 @@ body {
   }
 
   .footer-bottom {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
 }
 
@@ -1166,6 +1180,10 @@ body {
     font-size: 21px;
   }
 
+  .otext-column p {
+    font-size: 16px;
+  }
+
   .oimage-row img {
     height: 200px;
   }
@@ -1194,9 +1212,11 @@ body {
   .left h2 {
     font-size: 24px !important; /* Full desktop size */
   }
-
+.left .para{
+  font-size: 18px;
+}
   .left p {
-    font-size: 14px !important; /* Full desktop size */
+    font-size: 15px !important; /* Full desktop size */
     line-height: 1.4 !important;
   }
 
@@ -1207,10 +1227,11 @@ body {
   }
   /* These maintain original desktop styling */
   .right ul {
-    font-size: 14px !important;
+    font-size: 15px !important;
   }
 
   .special-btn {
+    font-size: 18px;
     padding: 8px 16px !important;
   }
 
@@ -1240,11 +1261,11 @@ body {
   }
 
   .content-cont h2 {
-    font-size: 2.3rem;
+    font-size: 27;
   }
 
   .content-cont p {
-    font-size: 1.1rem;
+    font-size: 17;
   }
 
   /* footer section */
@@ -1258,7 +1279,7 @@ body {
   }
   .phone,
   .email {
-    font-size: 0.9rem;
+    font-size: 15px;
   }
   .contects {
     display: flex;
@@ -1267,11 +1288,11 @@ body {
     gap: 16px !important;
   }
   .contects p {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .contact-btn {
-    font-size: 14px;
+    font-size: 15px;
     border-radius: 70px;
     height: fit-content;
     width: fit-content;
@@ -1281,7 +1302,7 @@ body {
   }
 
   .footer-bottom {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
 }
 
@@ -1300,7 +1321,7 @@ body {
 
   .nav-links {
     gap: 32px;
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .nav-links .werken img {
@@ -1330,6 +1351,14 @@ body {
     padding: 65px 0 !important;
   }
 
+  .osection-container h2{
+    font-size: 30px;
+  }
+  .otext-column p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
   .oimage-row img {
     height: 100%;
   }
@@ -1355,11 +1384,22 @@ body {
 
   /* All other styles maintain desktop defaults */
   .left h2 {
-    font-size: 25px !important; /* Slightly larger heading */
+    font-size: 30px !important; /* Slightly larger heading */
+  }
+.left .para{
+  font-size: 21px;
+}
+  .left p {
+    font-size: 18px !important; /* Improved readability */
   }
 
-  .left p {
-    font-size: 14.5px !important; /* Improved readability */
+  .special-btn {
+    font-size: 21px;
+    padding: 8px 36px !important;
+  }
+
+  .right ul {
+    font-size: 18px !important;
   }
   /* bottom slider */
   .container-slider {
@@ -1382,7 +1422,11 @@ body {
   }
 
   .content-cont h2 {
-    font-size: 2.4rem;
+    font-size: 30px;
+  }
+
+  .content-cont p{
+    font-size: 18px;
   }
   .dot {
     height: 15px;
@@ -1401,7 +1445,7 @@ body {
   }
   .phone,
   .email {
-    font-size: 0.9rem;
+    font-size: 16px;
   }
   .contects {
     display: flex;
@@ -1410,11 +1454,11 @@ body {
     gap: 16px !important;
   }
   .contects p {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .contact-btn {
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 70px;
     height: fit-content;
     width: fit-content;
@@ -1424,7 +1468,7 @@ body {
   }
 
   .footer-bottom {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
 }
 
