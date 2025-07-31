@@ -26,10 +26,10 @@ body {
 /* Navbar styling */
 .navbar {
   background-color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+
   position: sticky;
   top: 0;
-  padding: 0 145px;
   z-index: 1000; /* Ensure it's above other elements */
 }
 
@@ -43,10 +43,6 @@ body {
 
 /* Logo */
 
-.logo img {
-  width: 20px;
-  height: 20px;
-}
 
 /* Nav Links */
 .nav-links {
@@ -125,22 +121,21 @@ body {
 .hero {
   background: url("/assets/hero-bg.jpg") no-repeat center center/cover;
   position: relative;
-  padding: 130px 145px;
+  /* padding: 130px 145px; */
   display: flex;
   align-items: center;
+  height: 100vh;
 }
 .hero-content {
-  max-width: 600px;
 }
 .hero-content h1 {
-  font-size: 2.5rem;
+
   font-weight: 500;
   margin-bottom: 20px;
 }
 .hero-content p {
   font-weight: 400;
   color: #1a1b1b;
-  font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 16px;
 }
@@ -149,7 +144,7 @@ body {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 24px;
-  font-size: 16px;
+  font-size: 21px;
   font-weight: 400;
   color: #e74c3c;
   border: 1px solid #e74c3c;
@@ -165,7 +160,7 @@ body {
 
 /* special section */
 .special-section {
-  padding: 0 100px;
+  /* padding: 0 100px; */
 }
 .spcecial-div {
   position: relative;
@@ -264,7 +259,6 @@ body {
 
 /* Logo Slider Styles */
 .container-slider {
-  padding: 180px 145px;
   text-align: center;
   margin: 0 auto;
   padding: 40px 0;
@@ -380,10 +374,10 @@ body {
 
 .news-section {
   margin: 40px auto;
-  padding: 20px 5%;
   text-align: start;
   font-family: Arial, sans-serif;
   box-sizing: border-box;
+  padding-bottom: 60px;
 }
 
 .news-section h2 {
@@ -458,7 +452,8 @@ body {
     background-color: #f5f5f5; /* Light gray background */
     color: #333; /* Dark text color */
     font-family: Arial, sans-serif;
-    padding: 2rem 0;
+  padding: 2rem 0;
+
     width: 100%;
 }
 
@@ -565,6 +560,12 @@ margin-bottom: 0px;
     font-weight: 400;
 }
 
+.main-footer
+    {
+      padding: 0px 0;
+    }
+
+
 /* -----------------------------
    MOBILE: up to 639px
 ------------------------------ */
@@ -575,8 +576,15 @@ margin-bottom: 0px;
   }
   /* navbar */
   .navbar {
-    padding: 0 20px;
+
   }
+
+  .container
+  {
+        width: 95%;
+    margin:0 auto;
+  }
+
   .hamburger {
     display: flex;
   }
@@ -616,10 +624,12 @@ margin-bottom: 0px;
 
   /* Hero Section */
   .hero {
-    padding: 50px 20px;
+    padding: 50px 0;
+    height: auto;
   }
   .hero-content {
-    max-width: 100%;
+    width: 95%;
+    margin: 0 auto;
     text-align: center;
   }
   .hero-content h1 {
@@ -640,7 +650,9 @@ margin-bottom: 0px;
 
   /* special section */
   .special-section {
-    padding: 0 20px !important;
+    /* padding: 0 20px !important; */
+        width: 95%;
+    margin: 0 auto;
   }
 
   .spcecial-div {
@@ -703,7 +715,8 @@ margin-bottom: 0px;
 
   /* Logo Slider Adjustments */
   .container-slider {
-    padding: 0 20px !important;
+    width: 95%;
+    margin: 0 auto;
   }
 
   .logo-slider-wrapper {
@@ -739,7 +752,8 @@ margin-bottom: 0px;
   /* news section */
 
   .news-section {
-    padding: 15px 20px;
+    width: 95%;
+
     margin: 20px auto;
   }
 
@@ -817,7 +831,7 @@ margin-bottom: 0px;
         flex-direction: column;
         gap: 0.5rem;
     }
-}
+  }
 
 /* -----------------------------
    TABLETS: 640px to 767px
@@ -825,10 +839,11 @@ margin-bottom: 0px;
 @media (min-width: 640px) and (max-width: 767px) {
   /* navbar */
   .navbar {
-    padding: 0 40px;
+
   }
   .container {
-    padding: 14px 0px;
+    width: 95%;
+    margin:0 auto;
   }
 
   .nav-links {
@@ -843,7 +858,7 @@ margin-bottom: 0px;
   }
   /* Hero Section */
   .hero {
-    padding: 60px 40px;
+    /* padding: 60px 40px; */
   }
   .hero-content h1 {
     font-size: 20px;
@@ -863,7 +878,9 @@ margin-bottom: 0px;
   /* special section */
 
   .special-section {
-    padding: 0 40px !important;
+    /* padding: 0 40px !important; */
+    width: 95%;
+    margin: 0 auto;
   }
 
   .spcecial-div {
@@ -911,7 +928,8 @@ margin-bottom: 0px;
 
   /* Logo Slider Adjustments */
   .container-slider {
-    padding: 0 40px !important;
+    width: 95%;
+    margin: 0 auto;
   }
 
   .logo-slider-wrapper {
@@ -948,7 +966,7 @@ margin-bottom: 0px;
   /* news section */
 
   .news-section {
-    padding: 20px 40px;
+    width: 95%;
     margin: 30px auto;
   }
 
@@ -969,8 +987,9 @@ margin-bottom: 0px;
 
   /* footer section */
 
-  .site-footer{
-    padding: 20px 40px;
+  .main-footer{
+   width: 95%;
+   margin:  auto;
   }
 
   .logo-footer {
@@ -1012,10 +1031,11 @@ margin-bottom: 0px;
 @media (min-width: 768px) and (max-width: 1023px) {
   /* navbar */
   .navbar {
-    padding: 0 60px;
+
   }
   .container {
-    padding: 16px 0px;
+    width: 95%;
+    margin:0 auto;
   }
 
   .nav-links {
@@ -1024,22 +1044,26 @@ margin-bottom: 0px;
     margin-top: 0;
   }
 
-  .logo img {
+  /* .logo img {
     width: 63px;
     height: 30px;
-  }
+  } */
   /* Hero Section */
-  .hero {
-    padding: 70px 60px;
+  .hero-content  {
+    /* padding: 70px 60px; */
+    width: 95%;
+    margin: 0 auto;
   }
   .hero-content h1 {
     font-size: 30px;
     margin-bottom: 8px;
   }
   .hero-content p {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.4;
     margin-bottom: 16px;
+    width: 600px;
+    max-width:0 auto;
   }
 
   .cta-button {
@@ -1050,7 +1074,9 @@ margin-bottom: 0px;
 
   /* special section */
   .special-section {
-    padding: 0 60px !important;
+    /* padding: 0 60px !important; */
+    width: 95%;
+    margin: 0 auto;
   }
 
   .spcecial-div {
@@ -1104,7 +1130,8 @@ margin-bottom: 0px;
   /* slider section */
 
   .container-slider {
-    padding: 40px 60px !important;
+    width: 95%;
+    margin: 0 auto;
   }
 
   .logo-slider-wrapper {
@@ -1131,7 +1158,7 @@ margin-bottom: 0px;
   /* news section */
 
   .news-section {
-    padding: 0 60px 20px 60px;
+    width: 95%;
     margin: 0 auto 20px auto;
   }
 
@@ -1148,8 +1175,10 @@ margin-bottom: 0px;
 
   /* footer section */
 
-  .site-footer{
-    padding: 20px 60px;
+  .main-footer{
+   width: 95%;
+   
+   margin: 0 auto;
   }
 
   .logo-footer {
@@ -1190,16 +1219,13 @@ gap: 11px !important;
 @media (min-width: 1024px) and (max-width: 1279px) {
   /* navbar */
   .navbar {
-    padding: 0 80px;
+   
   }
   .container {
-    padding: 12px 0px;
+    width: 95%;
+    margin:0 auto;
   }
 
-  .logo img {
-    width: 74px;
-    height: 30px;
-  }
 
   .nav-links {
     gap: 32px;
@@ -1212,14 +1238,14 @@ gap: 11px !important;
   }
   /* Hero Section */
   .hero {
-    padding: 100px 80px;
+    /* padding: 100px 80px; */
   }
   .hero-content h1 {
-    font-size: 30px;
+
     margin-bottom: 8px;
   }
   .hero-content p {
-    font-size: 13px;
+
     line-height: 1.5;
     margin-bottom: 16px;
   }
@@ -1227,12 +1253,12 @@ gap: 11px !important;
   .cta-button {
     margin-top: 15px;
     padding: 10px 24px;
-    font-size: 14px;
+    font-size: 18px !important;
   }
 
   /* special section */
   .special-section {
-    padding: 0 80px !important;
+    /* padding: 0 80px !important; */
   }
 
   .spcecial-div {
@@ -1290,7 +1316,7 @@ gap: 11px !important;
 
   /* slider section */
   .container-slider {
-    padding: 40px 80px !important;
+
   }
 
   .logo-slider-wrapper {
@@ -1308,7 +1334,7 @@ gap: 11px !important;
   /* news section */
 
   .news-section {
-    padding: 0 80px 20px 80px;
+
     margin: 0 auto 20px auto;
   }
 
@@ -1324,7 +1350,7 @@ gap: 11px !important;
   /* footer section */
 
   .site-footer{
-    padding: 20px 80px;
+
   }
 
   .logo-footer {
@@ -1366,6 +1392,7 @@ gap: 16px !important;
    DESKTOP: 1280px..........
 ------------------------------ */
 @media (min-width: 1280px)  {
+
   .topbar {
     padding: 4px 0;
   }
@@ -1374,16 +1401,16 @@ gap: 16px !important;
   }
   /* navbar */
   .navbar {
-    padding: 0 194px;
+    /* padding: 0 194px; */
+
   }
   .container {
-    padding: 8px 0;
+    /* padding: 8px 0;
+        width: 1340px; */
+    margin: 0 auto;
   }
 
-  .logo img {
-    width: 60px;
-    height: 40px;
-  }
+  
 
   .nav-links {
     gap: 32px;
@@ -1396,18 +1423,18 @@ gap: 16px !important;
   }
   /* Hero Section */
   .hero {
-    padding: 125px 194px;
+    /* padding: 125px 194px; */
   }
   .hero-content {
-    max-width: 536px; /* Slightly reduced max-width */
+
   }
   .hero-content h1 {
-    font-size: 30px;
+
     margin-bottom: 8px;
   }
   .hero-content p {
     font-weight: 300;
-    font-size: 14px;
+    
     line-height: 1.6;
     margin-bottom: 16px;
   }
@@ -1415,13 +1442,11 @@ gap: 16px !important;
   .cta-button {
     margin-top: 15px;
     padding: 5px 40px;
-    font-size: 16px;
   }
 
   /* special section */
 
   .special-section {
-    padding: 0 194px !important; /* Intermediate between 1024-1279 and full desktop */
   }
 
   .spcecial-div {
@@ -1455,7 +1480,7 @@ gap: 16px !important;
   /* slider section */
 
   .container-slider {
-    padding: 50px 194px !important;
+
   }
 
   .logo-slider-wrapper {
@@ -1472,7 +1497,7 @@ gap: 16px !important;
 
   /* news section */
   .news-section {
-    padding: 0 194px 20px 194px;
+
   }
 
   .news-grid {
@@ -1487,7 +1512,7 @@ gap: 16px !important;
   /* footer section */
 
   .site-footer{
-    padding: 20px 194px;
+
   }
 
   .logo-footer {
@@ -1524,6 +1549,115 @@ gap: 16px !important;
         font-size: 0.8rem;
     }
 }
+
+
+@media (min-width: 1380px) and (max-width: 4000px) {
+
+.container
+{
+  width: 1340px !important;
+  margin: 0 auto !important;
+}
+
+  .hero-content {
+   width: 1340px;
+   margin:0 auto;
+  }
+
+  .hero-content h1
+  {
+
+    font-size: 48px !important;
+  }
+
+  .hero-content p 
+  {
+    width: 800px;
+    font-size: 21px !important;
+  }
+
+  .special-section
+  {
+      width: 1340px !important;
+  margin: 0 auto !important;
+  }
+
+.container-slider {
+      width: 1340px !important;
+  margin: 0 auto !important;
+}
+.news-section
+{
+  width: 1340px !important;
+  margin: 0 auto !important;
+}
+
+  .main-footer{
+    width: 1340px !important;
+  margin: 0 auto !important;
+  }
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1380px) {
+
+.container
+{
+  width:90% !important;
+  margin: 0 auto !important;
+}
+
+.hero-content {
+   width: 90%;
+   margin:0 auto;
+  }
+
+  .hero-content h1
+  {
+
+    font-size: 40px !important;
+  }
+
+
+  .hero-content p 
+  {
+    width: 700px;
+    font-size: 18px !important;
+
+  }
+
+.cta-button
+{
+  font-size: 18px !important;
+}
+
+  .special-section
+  {
+      width: 90% !important;
+  margin: 0 auto !important;
+  }
+
+.container-slider {
+      width: 90% !important;
+  margin: 0 auto !important;
+}
+
+.news-section
+{
+  width: 90% !important;
+  margin: 0 auto !important;
+}
+
+  .main-footer{
+    width: 90% !important;
+  margin: 0 auto !important;
+  }
+}
+
+
+
+
 
 /* -----------------------------
    DESKTOP: 1536px to 2559px

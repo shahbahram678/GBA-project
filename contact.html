@@ -1,154 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="contact.css">
-    <link href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@1&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
+  <body>
     <!-- Topbar -->
     <div class="topbar">
-        <p>Join our team - <span>Vacature Incidentbestrijder</span></p>
+      <p>Join our team - <span>Vacature Incidentbestrijder</span></p>
     </div>
     <!-- Navbar -->
     <header class="navbar">
-        <div class="container">
-            <!-- Left: Logo -->
-            <div class="logo">
-                <img src="assets/GBA logo.svg" alt="Logo" />
-            </div>
-            <!-- Hamburger Toggle -->
-            <input type="checkbox" id="menu-toggle" />
-            <label for="menu-toggle" class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-            <!-- Right: Navigation -->
-           <nav class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="over ons.html">Over ons</a>
-        <a href="Specialismes.html">Specialismes</a>
-        <a href="werken-bij-green.html" class="werken">
-          Werken bij <img src="assets/red-dot.png" alt="Icon" />
-        </a>
-        <a href="contact.html">Contact</a>
-      </nav>
+      <div class="container">
+        <!-- Left: Logo -->
+        <div class="logo">
+          <img src="assets/GBA logo.svg" alt="Logo" />
         </div>
+        <!-- Hamburger Toggle -->
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <!-- Right: Navigation -->
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="over ons.html">Over ons</a>
+          <a href="Specialismes.html">Specialismes</a>
+          <a href="werken-bij-green.html" class="werken">
+            Werken bij <img src="assets/red-dot.png" alt="Icon" />
+          </a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
     </header>
 
     <!-- form section -->
 
-<div class="container-form">
-    <!-- Left Content -->
-    <div class="left-form">
-      <h2>Vragen of benieuwd<br>naar de mogelijkheden?</h2>
-      <p>Het team GBA komt graag met u in contact.</p>
-      <div class="phone-form">📞 020 555 6100</div>
-      <img src="assets/gba-tag.png" alt="GBA Logo">
-    </div>
+    <div class="container-form">
+      <!-- Left Content -->
+      <div class="left-form">
+        <h2>Vragen of benieuwd<br />naar de mogelijkheden?</h2>
+        <p>Het team GBA komt graag met u in contact.</p>
+        <div class="phone-form">📞 020 555 6100</div>
+        <img src="assets/gba-tag.png" alt="GBA Logo" />
+      </div>
 
-    <!-- Right Form -->
-    <div class="right-form">
-      <form>
-        <div class="row-form">
-          <div class="field-form">
-            <label for="voornaam">Voornaam <span class="last-star">*</span></label>
-            <input type="text" id="voornaam" placeholder="Rian" name="voornaam" required>
+      <!-- Right Form -->
+      <div class="right-form">
+        <form>
+          <div class="row-form">
+            <div class="field-form">
+              <label for="voornaam"
+                >Voornaam <span class="last-star">*</span></label
+              >
+              <input
+                type="text"
+                id="voornaam"
+                placeholder="Rian"
+                name="voornaam"
+                required
+              />
+            </div>
+            <div class="field-form">
+              <label for="achternaam"
+                >Achternaam <span class="last-star">*</span></label
+              >
+              <input
+                type="text"
+                id="achternaam"
+                placeholder="Ouwendijk"
+                name="achternaam"
+                required
+              />
+            </div>
           </div>
+
           <div class="field-form">
-            <label for="achternaam">Achternaam <span class="last-star">*</span></label>
-            <input type="text" id="achternaam" placeholder="Ouwendijk" name="achternaam" required>
+            <label for="bedrijf">Bedrijfsnaam</label>
+            <input type="text" id="bedrijf" name="bedrijf" />
+          </div>
+
+          <div class="field-form">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="field-form">
+            <label for="telefoon">Telefoon *</label>
+            <input type="tel" id="telefoon" name="telefoon" required />
+          </div>
+
+          <div class="field-form">
+            <label for="bericht">Bericht *</label>
+            <textarea id="bericht" name="bericht" required></textarea>
+          </div>
+
+          <div class="checkbox-container">
+            <input type="checkbox" id="agree-new" />
+            <label for="agree-new">
+              Ik geef toestemming voor het gebruik van mijn persoonsgegevens om
+              contact met mij op te nemen; ik ga akkoord met het privacybeleid.*
+            </label>
+          </div>
+
+          <button type="submit">Verzenden</button>
+        </form>
+        <p class="last-para">
+          <span class="last-star">*</span>Velden zijn verplicht.
+        </p>
+      </div>
+    </div>
+
+    <!-- map saction -->
+
+    <div>
+      <img class="map" src="assets/map-img.png" alt="map-image" />
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+      <div class="main-footer">
+        <div class="footer-top">
+          <div class="footer-up">
+            <img src="assets/GBA logo.svg" alt="GBA Logo" class="logo-footer" />
+            <div class="contects">
+              <p><strong>Galwin 3, 1046 AW, Amsterdam</strong></p>
+              <p class="phone" style="color: black">020 555 61 00</p>
+
+              <p class="email">info@gbamsterdam.nl</p>
+              <a href="contact.html" class="contact-btn">Contact opnemen</a>
+            </div>
+          </div>
+
+          <div class="footer-down">
+            <div class="social-icons">
+              <a href="#"
+                ><img
+                  src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg"
+                  alt="Instagram"
+              /></a>
+              <a href="#"
+                ><img
+                  src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+                  alt="LinkedIn"
+              /></a>
+              <a href="#"
+                ><img
+                  src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg"
+                  alt="YouTube"
+              /></a>
+              <a href="#"
+                ><img
+                  src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg"
+                  alt="Facebook"
+              /></a>
+            </div>
           </div>
         </div>
 
-        <div class="field-form">
-          <label for="bedrijf">Bedrijfsnaam</label>
-          <input type="text" id="bedrijf" name="bedrijf">
-        </div>
+        <div class="footer-bottom">
+          <div class="bottom-left">
+            <p>&copy; 2024 Gezamenlijke Brandweer Amsterdam</p>
+            <a href="privacy.html">Privacybeleid</a>
 
-        <div class="field-form">
-          <label for="email">Email *</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-
-        <div class="field-form">
-          <label for="telefoon">Telefoon *</label>
-          <input type="tel" id="telefoon" name="telefoon" required>
-        </div>
-
-        <div class="field-form">
-          <label for="bericht">Bericht *</label>
-          <textarea id="bericht" name="bericht" required></textarea>
-        </div>
-
-        <div class="checkbox-container">
-  <input type="checkbox" id="agree-new">
-  <label for="agree-new">
-    Ik geef toestemming voor het gebruik van mijn persoonsgegevens om contact met mij op te nemen; ik ga akkoord met het privacybeleid.*
-  </label>
-</div>
-
-
-
-        <button type="submit">Verzenden</button>
-      </form>
-      <p class="last-para"><span class="last-star">*</span>Velden zijn verplicht.</p>
-    </div>
-  </div>
-
-  <!-- map saction -->
-
-  <div>
-    <img class="map" src="assets/map-img.png" alt="map-image">
-  </div>
-
-  <!-- Footer Section -->
-  <footer class="site-footer">
-    <div class="footer-top">
-      <div class="footer-up">
-        <img src="assets/GBA logo.svg" alt="GBA Logo" class="logo-footer" />
-        <div class="contects">
-          <p><strong>Galwin 3, 1046 AW, Amsterdam</strong></p>
-        <p class="phone" style="color: black;">020 555 61 00</p>
-
-        <p class="email">info@gbamsterdam.nl</p>
-        <a href="contact.html" class="contact-btn">Contact opnemen</a>
+            <a href="#">Policy</a>
+          </div>
+          <div class="bottom-right">
+            <p class="credit">Website door Dutch Blue</p>
+          </div>
         </div>
       </div>
-
-      <div class="footer-down">
-        <div class="social-icons">
-          <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg"
-              alt="Instagram" /></a>
-          <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
-              alt="LinkedIn" /></a>
-          <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg"
-              alt="YouTube" /></a>
-          <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg"
-              alt="Facebook" /></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <div class="bottom-left">
-        <p>&copy; 2024 Gezamenlijke Brandweer Amsterdam</p>
-                        <a href="privacy.html">Privacybeleid</a>
-
-        <a href="#">Policy</a>
-      </div>
-      <div class="bottom-right">
-      <p class="credit">Website door Dutch Blue</p>
-      </div>
-    </div>
-  </footer>
-
-</body>
-
+    </footer>
+  </body>
 </html>
