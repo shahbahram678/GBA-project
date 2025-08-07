@@ -29,7 +29,7 @@
         </div>
         <!-- Hamburger Toggle -->
         <input type="checkbox" id="menu-toggle" />
-        <label for="menu-toggle" class="hamburger">
+        <label for="menu-toggle" class="hamburger" aria-label="Open menu">
           <span></span>
           <span></span>
           <span></span>
@@ -48,7 +48,7 @@
     </header>
     <!-- video Section -->
     <section class="video">
-      <video autoplay muted loop playsinline class="top-video">
+      <video preload="auto" autoplay muted loop playsinline class="top-video">
         <source src="assets/hero vedio.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
@@ -185,8 +185,8 @@
           <div>- Sarah Lee</div>
         </div>
         <div class="controls">
-          <button onclick="prevTestimonial()"><img src="assets/l-slider-btn.svg" alt="btn"></button>
-          <button onclick="nextTestimonial()"><img src="assets/r-slider-btn.svg" alt="btn"></button>
+          <button type="button" onclick="prevTestimonial()"><img src="assets/l-slider-btn.svg" alt="btn"></button>
+          <button type="button" onclick="nextTestimonial()"><img src="assets/r-slider-btn.svg" alt="btn"></button>
         </div>
       </div>
     </div>

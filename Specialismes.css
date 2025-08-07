@@ -107,6 +107,7 @@ body {
   color: #333;
 }
 
+
 .content-container h2 {
   font-size: 24px;
   font-weight: 500;
@@ -144,16 +145,16 @@ body {
 
 /* container flex section */
 
-.container-flex {
-  display: flex;
-  align-items: center;
-  gap: 90px;
-  min-height: 100vh;
+.main-container-flex {
+  background-image: url('assets/img-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
+
 .text-section {
-  flex: 1;
-  padding: 50px 0 50px 194px;
+  padding: 50px 0 50px 0;
   max-width: 668px;
 }
 
@@ -172,28 +173,28 @@ body {
 }
 
 .image-section {
-  flex: 1;
+
 }
 
 .image-section img {
-  flex: 1;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
 /* mid flex */
-.container-mid-flex {
-  display: flex;
-  align-items: center;
-  gap: 90px;
-  flex-direction: row-reverse;
+.main-container-mid-flex {
+  background-image: url('assets/img-mid-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
+
 .text-mid-section {
-  flex: 1;
-  padding: 50px 194px 50px 0;
+  padding: 50px 0 50px 0;
   max-width: 668px;
+  margin: 0 0 0 auto;
 }
 
 .text-mid-section h2 {
@@ -211,7 +212,7 @@ body {
 }
 
 .image-mid-section {
-  flex: 1;
+
 }
 
 .image-mid-section img {
@@ -221,16 +222,17 @@ body {
 }
 
 /* last flex */
-.container-last-flex {
-  display: flex;
-  align-items: center;
-  gap: 90px;
-  min-height: 100vh;
+
+.main-container-last-flex{
+background-image: url('assets/img-last\ bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .text-last-section {
-  flex: 1;
-  padding: 50px 0 50px 194px;
+  
+  padding: 50px 0 50px 0;
   max-width: 668px;
 }
 
@@ -249,7 +251,7 @@ body {
 }
 
 .image-last-section {
-  flex: 1;
+  
 }
 
 .image-last-section img {
@@ -463,10 +465,20 @@ body {
   .container-flex,
   .container-mid-flex,
   .container-last-flex {
-    flex-direction: column;
-    gap: 30px;
     min-height: auto;
-    padding: 40px 20px;
+    padding: 40px 0;
+  }
+  .container-flex{
+    width: 95%;
+  margin:0 auto;
+  }
+  .container-mid-flex{
+    width: 95%;
+  margin:0 auto;
+  }
+  .container-last-flex{
+    width: 95%;
+  margin:0 auto;
   }
 
   .text-section,
@@ -587,10 +599,22 @@ body {
   .container-flex,
   .container-mid-flex,
   .container-last-flex {
-    flex-direction: column;
-    gap: 40px;
+    
     min-height: auto;
-    padding: 50px 30px;
+    padding: 50px 0 ;
+  }
+  .container-flex{
+    width: 95%;
+  margin:0 auto;
+  }
+  .container-mid-flex
+  {
+    width: 95%;
+  margin:0 auto;
+  }
+  .container-last-flex{
+    width: 95%;
+  margin:0 auto;
   }
 
   .text-section,
@@ -700,13 +724,14 @@ body {
 
   /* container flex section */
 
-  .container-flex {
-    gap: 90px;
+  .container-flex{
+    width: 95%;
+  margin:0 auto;
   }
 
   .text-section {
-    padding: 20px 0 20px 60px;
-    max-width: 568px;
+    padding: 20px 0 20px 0;
+    max-width: 100%;
   }
 
   .text-section h2 {
@@ -727,12 +752,13 @@ body {
 
   /* mid flex */
   .container-mid-flex {
-    gap: 90px;
+    width: 95%;
+  margin:0 auto;
   }
 
   .text-mid-section {
-    padding: 20px 60px 20px 0;
-    max-width: 568px;
+    padding: 20px 0 20px 0;
+    max-width: 100%;
   }
 
   .text-mid-section h2 {
@@ -752,12 +778,13 @@ body {
   }
   /* last flex */
   .container-last-flex {
-    gap: 90px;
+    width: 95%;
+  margin:0 auto;
   }
 
   .text-last-section {
-    padding: 20px 0 20px 60px;
-    max-width: 568px;
+    padding: 20px 0 20px 0;
+    max-width: 100%;
   }
 
   .text-last-section h2 {
@@ -864,12 +891,11 @@ body {
   /* container flex section */
 
   .container-flex {
-    gap: 90px;
   }
 
   .text-section {
-    padding: 30px 0 30px 80px;
-    max-width: 620px;
+    padding: 30px 0 30px 0;
+    max-width: 490px;
   }
 
   .text-section h2 {
@@ -878,7 +904,7 @@ body {
   }
 
   .text-section p {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.6;
     margin-bottom: 15px;
   }
@@ -894,8 +920,8 @@ body {
   }
 
   .text-mid-section {
-    padding: 30px 80px 30px 0;
-    max-width: 620px;
+    padding: 30px 0 30px 0;
+    max-width: 490px;
   }
 
   .text-mid-section h2 {
@@ -904,7 +930,7 @@ body {
   }
 
   .text-mid-section p {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.6;
     margin-bottom: 15px;
   }
@@ -919,8 +945,8 @@ body {
   }
 
   .text-last-section {
-    padding: 30px 0 30px 80px;
-    max-width: 568px;
+    padding: 30px 0 30px 0;
+    max-width: 490px;
   }
 
   .text-last-section h2 {
@@ -929,7 +955,7 @@ body {
   }
 
   .text-last-section p {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.6;
     color: #333;
     margin-bottom: 15px;
@@ -1018,8 +1044,7 @@ body {
   /* container flex section */
 
   .container-flex {
-    gap: 90px;
-    min-height: 100vh;
+    
   }
 .content-container h2 {
     font-size: 30px;
@@ -1028,8 +1053,8 @@ body {
     font-size: 18px;
   }
   .text-section {
-    padding: 50px 0 50px 194px;
-    max-width: 668px;
+    padding: 50px 0 50px 0;
+    max-width: 600px;
   }
 
   .text-section h2 {
@@ -1054,8 +1079,8 @@ body {
   }
 
   .text-mid-section {
-    padding: 50px 194px 50px 0;
-    max-width: 668px;
+    padding: 50px 0 50px 0;
+    max-width: 600px;
   }
 
   .text-mid-section h2 {
@@ -1081,8 +1106,8 @@ body {
   }
 
   .text-last-section {
-    padding: 50px 0 50px 194px;
-    max-width: 668px;
+    padding: 50px 0 50px 0;
+    max-width: 600px;
   }
 
   .text-last-section h2 {
@@ -1153,6 +1178,20 @@ body {
     margin: 0 auto !important;
   }
 
+  .container-flex{
+    width: 1340px;
+  margin:0 auto;
+  }
+  .container-mid-flex{
+    width: 1340px;
+
+  margin:0 auto;
+  }
+  .container-last-flex{
+    width: 1340px;
+  margin:0 auto;
+  }
+
   .main-footer {
     width: 1340px !important;
     margin: 0 auto !important;
@@ -1170,6 +1209,21 @@ body {
     margin: 0 auto !important;
   }
 
+  .container-flex{
+    width: 90%;
+  margin: auto;
+  }
+  .container-mid-flex{
+    width: 95%;
+  margin-left: 0;
+  margin-right: auto;
+  }
+  .container-last-flex{
+    width: 95%;
+  margin-right: 0;
+  margin-left: auto;
+  }
+
   .main-footer {
     width: 90% !important;
     margin: 0 auto !important;
@@ -1180,6 +1234,31 @@ body {
    DESKTOP: 1536px to 2559px
 ------------------------------ */
 
+
+@media (max-width: 1023px) {
+.main-container-flex{
+  background: none;
+}
+
+.main-container-mid-flex{
+  background: none;
+}
+.main-container-last-flex{
+  background: none;
+}
+}
+
+@media (min-width: 1024px) {
+  .image-section{
+    display: none;
+  }
+  .image-mid-section{
+    display: none;
+  }
+  .image-last-section{
+    display: none;
+  }
+}
 /* -----------------------------
    4K SCREENS: 2560px and above
 ------------------------------ */
