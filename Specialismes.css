@@ -283,10 +283,10 @@ background-image: url('assets/img-last\ bg.png');
   margin-bottom: 2rem;
 }
 
-.logo-footer {
-  width: 100px; /* Adjust based on actual logo size */
+/* .logo-footer {
+  width: 100px; 
   height: auto;
-}
+} */
 
 .contects {
   text-align: right;
@@ -331,7 +331,7 @@ background-image: url('assets/img-last\ bg.png');
 .social-icons a img {
   width: 24px;
   height: 24px;
-  filter: grayscale(100%) brightness(40%);
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(70%) contrast(90%);
   transition: filter 0.3s;
 }
 
@@ -362,7 +362,7 @@ background-image: url('assets/img-last\ bg.png');
   color: #333;
   text-decoration: none;
   font-weight: 400;
-  margin-top: 4px;
+  /* margin-top: 4px; */
 }
 
 .bottom-left a:hover {
@@ -971,9 +971,9 @@ background-image: url('assets/img-last\ bg.png');
   .site-footer {
   }
 
-  .logo-footer {
+  /* .logo-footer {
     width: 70px;
-  }
+  } */
 
   .footer-top {
     padding: 0 0;
@@ -1131,9 +1131,9 @@ background-image: url('assets/img-last\ bg.png');
   .site-footer {
   }
 
-  .logo-footer {
+  /* .logo-footer {
     width: 70px;
-  }
+  } */
 
   .footer-top {
     padding: 0 0;

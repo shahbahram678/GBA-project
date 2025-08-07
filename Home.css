@@ -232,7 +232,6 @@ font-size: 48px;
 .right ul li {
   margin-bottom: 10px;
   font-weight: 400;
-  font-size: 21px;
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -240,8 +239,8 @@ font-size: 48px;
 
 .icon {
   color: green;
+  align-self: flex-start;
   font-size: 16px;
-  align-self: center;
 }
 
 /* Bottom images row */
@@ -274,6 +273,7 @@ font-size: 48px;
   cursor: grab;
   margin: 0 auto 60px;
   position: relative;
+  -webkit-user-select: none;
   user-select: none;
 }
 
@@ -289,6 +289,7 @@ font-size: 48px;
   height: 60px;
   width: auto;
   margin: 0 30px;
+  -webkit-user-select: none;
   user-select: none;
   pointer-events: none;
   flex-shrink: 0;
@@ -469,10 +470,10 @@ font-size: 48px;
     margin-bottom: 2rem;
 }
 
-.logo-footer {
-    width: 100px; /* Adjust based on actual logo size */
+/* .logo-footer {
+    width: auto; 
     height: auto;
-}
+} */
 
 .contects {
     text-align: right;
@@ -516,7 +517,7 @@ font-size: 48px;
 .social-icons a img {
     width: 24px;
     height: 24px;
-    filter: grayscale(100%) brightness(40%);
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(70%) contrast(90%);
     transition: filter 0.3s;
 }
 
@@ -909,6 +910,10 @@ margin-bottom: 0px;
     font-size: 13.5px !important;
     line-height: 1.5 !important;
   }
+  .right ul {
+    font-size: 13.5px !important;
+    padding-left: 0 !important;
+  }
 
   .bg-image {
     max-width: 180px !important;
@@ -1104,6 +1109,10 @@ margin-bottom: 0px;
     font-size: 13.8px !important;
     line-height: 1.55 !important;
   }
+  .right ul {
+    font-size: 13.8px !important;
+    padding-left: 0 !important;
+  }
 
   .bg-image {
     max-width: 220px !important;
@@ -1285,6 +1294,10 @@ gap: 11px !important;
     font-size: 14px !important; /* Full desktop size */
     line-height: 1.6 !important;
   }
+  .right ul {
+    font-size: 14px !important;
+    padding-left: 0 !important;
+  }
 
   .bg-image {
     max-width: 170px !important; /* Original size */
@@ -1353,9 +1366,9 @@ gap: 11px !important;
 
   }
 
-  .logo-footer {
-        width: 70px;
-    }
+  /* .logo-footer {
+        width: none;
+    } */
 
     .footer-top{
       padding: 0 0;
@@ -1472,6 +1485,13 @@ gap: 16px !important;
   .left p {
     font-size: 21px !important; /* Improved readability */
   }
+  .right ul {
+    font-size: 21px !important;
+    padding-left: 0 !important;
+  }
+  .icon{
+    font-size: 20px;
+  }
 .special-btn {
     padding: 8px 40px !important;
   }
@@ -1524,9 +1544,9 @@ font-size: 36px;
 
   }
 
-  .logo-footer {
+  /* .logo-footer {
         width: 70px;
-    }
+    } */
 
     .footer-top{
       padding: 0 0;

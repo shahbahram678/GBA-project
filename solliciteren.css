@@ -363,10 +363,10 @@ textarea {
     margin-bottom: 2rem;
 }
 
-.logo-footer {
-    width: 100px; /* Adjust based on actual logo size */
+/* .logo-footer {
+    width: 100px; 
     height: auto;
-}
+} */
 
 .contects {
     text-align: right;
@@ -409,7 +409,7 @@ textarea {
 .social-icons a img {
     width: 24px;
     height: 24px;
-    filter: grayscale(100%) brightness(40%);
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(70%) contrast(90%);
     transition: filter 0.3s;
 }
 
@@ -1184,9 +1184,9 @@ gap: 11px !important;
     padding: 20px 80px;
   }
 
-  .logo-footer {
+  /* .logo-footer {
         width: 70px;
-    }
+    } */
 
     .footer-top{
       padding: 0 0;
@@ -1258,9 +1258,9 @@ gap: 16px !important;
     padding: 20px 194px;
   }
 
-  .logo-footer {
+  /* .logo-footer {
         width: 70px;
-    }
+    } */
 
     .footer-top{
       padding: 0 0;
