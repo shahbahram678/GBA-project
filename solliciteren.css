@@ -409,7 +409,7 @@ textarea {
 .social-icons a img {
     width: 24px;
     height: 24px;
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(70%) contrast(90%);
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(50%) contrast(90%);
     transition: filter 0.3s;
 }
 
